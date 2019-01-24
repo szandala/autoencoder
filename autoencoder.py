@@ -85,7 +85,7 @@ train_X,valid_X,train_ground,valid_ground = train_test_split(train_data,
 
 
 batch_size = 128
-epochs = 50
+epochs = 20
 inChannel = 1
 x, y = 28, 28
 input_img = Input(shape = (x, y, inChannel))
